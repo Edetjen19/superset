@@ -116,6 +116,7 @@ class TestBaseModelRestApi(SupersetTestCase):
         assert rv.status_code == 200
         response = json.loads(rv.data.decode("utf-8"))
         expected_mutation_spec = {
+            "additionalProperties": False,
             "properties": {"id": {"type": "integer"}},
             "type": "object",
         }
