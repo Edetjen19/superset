@@ -90,6 +90,7 @@ def test_parameters_json_schema() -> None:
     json_schema = DatabricksNativeEngineSpec.parameters_json_schema()
 
     assert json_schema == {
+        "additionalProperties": False,
         "type": "object",
         "properties": {
             "access_token": {"type": "string"},
