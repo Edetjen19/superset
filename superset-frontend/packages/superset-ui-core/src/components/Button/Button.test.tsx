@@ -17,16 +17,12 @@
  * under the License.
  */
 import { fireEvent, render } from '@superset-ui/core/spec';
-import { Button } from '.';
+import { Button, getSecondaryButtonStyle, getSecondaryButtonHoverStyles } from '.';
 import {
   ButtonGallery,
   SIZES as buttonSizes,
   STYLES as buttonStyles,
 } from './Button.stories';
-import {
-  getSecondaryButtonStyle,
-  getSecondaryButtonHoverStyles,
-} from './index';
 import type { SupersetTheme } from '@apache-superset/core/theme';
 
 test('works with an onClick handler', () => {

@@ -18,11 +18,7 @@
  */
 
 import { render } from '@testing-library/react';
-import ScatterPlotOverlay from '../src/components/ScatterPlotOverlay';
-import {
-  MIN_CLUSTER_RADIUS_RATIO,
-  MAX_POINT_RADIUS_RATIO,
-} from '../src/components/ScatterPlotOverlay';
+import ScatterPlotOverlay, { MIN_CLUSTER_RADIUS_RATIO, MAX_POINT_RADIUS_RATIO } from '../src/components/ScatterPlotOverlay';
 
 type MockGradient = {
   addColorStop: jest.Mock<void, [number, string]>;

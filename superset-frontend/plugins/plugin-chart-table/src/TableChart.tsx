@@ -39,6 +39,12 @@ import {
   CaretUpOutlined,
   CaretDownOutlined,
   ColumnHeightOutlined,
+  CheckOutlined,
+  InfoCircleOutlined,
+  DownOutlined,
+  MinusCircleOutlined,
+  PlusCircleOutlined,
+  TableOutlined,
 } from '@ant-design/icons';
 import cx from 'classnames';
 import {
@@ -67,14 +73,6 @@ import {
   Dropdown,
   Tooltip,
 } from '@superset-ui/core/components';
-import {
-  CheckOutlined,
-  InfoCircleOutlined,
-  DownOutlined,
-  MinusCircleOutlined,
-  PlusCircleOutlined,
-  TableOutlined,
-} from '@ant-design/icons';
 import { isEmpty, debounce, isEqual } from 'lodash';
 import {
   ColorFormatters,
