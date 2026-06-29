@@ -26,7 +26,10 @@ import { supersetTheme } from '@apache-superset/core/theme';
 import type { SeriesOption } from 'echarts';
 import { EchartsTimeseriesSeriesType } from '../../src';
 import { TIMESERIES_CONSTANTS } from '../../src/constants';
-import { LegendOrientation, EchartsTimeseriesChartProps } from '../../src/types';
+import {
+  LegendOrientation,
+  EchartsTimeseriesChartProps,
+} from '../../src/types';
 import {
   transformSeries,
   transformNegativeLabelsPosition,

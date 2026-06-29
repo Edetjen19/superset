@@ -17,7 +17,10 @@
  * under the License.
  */
 import { ChartProps, getColumnLabel } from '@superset-ui/core';
-import { getRecordsFromQuery, createBaseTransformResult } from '../transformUtils';
+import {
+  getRecordsFromQuery,
+  createBaseTransformResult,
+} from '../transformUtils';
 import { DataRecord } from '../spatialUtils';
 
 export default function transformProps(chartProps: ChartProps) {

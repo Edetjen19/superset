@@ -16,7 +16,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-import { AppSection, Behavior, ChartProps, FilterState } from '@superset-ui/core';
+import {
+  AppSection,
+  Behavior,
+  ChartProps,
+  FilterState,
+} from '@superset-ui/core';
 import { supersetTheme } from '@apache-superset/core/theme';
 import {
   act,
