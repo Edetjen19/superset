@@ -17,7 +17,11 @@
  * under the License.
  */
 import { fireEvent, render } from '@superset-ui/core/spec';
-import { Button, getSecondaryButtonStyle, getSecondaryButtonHoverStyles } from '.';
+import {
+  Button,
+  getSecondaryButtonStyle,
+  getSecondaryButtonHoverStyles,
+} from '.';
 import {
   ButtonGallery,
   SIZES as buttonSizes,

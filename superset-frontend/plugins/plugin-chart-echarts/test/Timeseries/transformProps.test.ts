@@ -32,7 +32,11 @@ import {
   TimeGranularity,
 } from '@superset-ui/core';
 import { GenericDataType } from '@apache-superset/core/common';
-import { EchartsTimeseriesChartProps, LegendOrientation, LegendType } from '../../src/types';
+import {
+  EchartsTimeseriesChartProps,
+  LegendOrientation,
+  LegendType,
+} from '../../src/types';
 import type { SeriesOption } from 'echarts';
 import transformProps from '../../src/Timeseries/transformProps';
 import {

@@ -17,7 +17,10 @@
  * under the License.
  */
 
-import { groupingValueSort, aggregatorTemplates } from '../../src/react-pivottable/utilities';
+import {
+  groupingValueSort,
+  aggregatorTemplates,
+} from '../../src/react-pivottable/utilities';
 
 import type { ReactElement } from 'react';
 import '@testing-library/jest-dom';
