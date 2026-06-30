@@ -32,7 +32,11 @@ import {
   TimeGranularity,
 } from '@superset-ui/core';
 import { GenericDataType } from '@apache-superset/core/common';
-import { EchartsTimeseriesChartProps } from '../../src/types';
+import {
+  EchartsTimeseriesChartProps,
+  LegendOrientation,
+  LegendType,
+} from '../../src/types';
 import type { SeriesOption } from 'echarts';
 import transformProps from '../../src/Timeseries/transformProps';
 import {
@@ -41,7 +45,6 @@ import {
   EchartsTimeseriesFormData,
 } from '../../src/Timeseries/types';
 import { StackControlsValue, TIMESERIES_CONSTANTS } from '../../src/constants';
-import { LegendOrientation, LegendType } from '../../src/types';
 import { DEFAULT_FORM_DATA } from '../../src/Timeseries/constants';
 import { createEchartsTimeseriesTestChartProps } from '../helpers';
 import { BASE_TIMESTAMP, createTestData } from './helpers';

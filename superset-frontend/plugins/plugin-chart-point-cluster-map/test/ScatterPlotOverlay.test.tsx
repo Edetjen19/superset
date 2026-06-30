@@ -18,8 +18,7 @@
  */
 
 import { render } from '@testing-library/react';
-import ScatterPlotOverlay from '../src/components/ScatterPlotOverlay';
-import {
+import ScatterPlotOverlay, {
   MIN_CLUSTER_RADIUS_RATIO,
   MAX_POINT_RADIUS_RATIO,
 } from '../src/components/ScatterPlotOverlay';
