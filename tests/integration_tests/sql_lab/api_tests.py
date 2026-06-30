@@ -400,7 +400,7 @@ class TestSqlLabApi(SupersetTestCase):
     )
     @mock.patch("superset.sqllab.api.get_sql_results")
     def test_execute_custom_templated(self, sql_lab_mock, mock_dt) -> None:
-        mock_dt.utcnow = mock.Mock(return_value=datetime.datetime(1970, 1, 1))
+        mock_dt.now = mock.Mock(return_value=datetime.datetime(1970, 1, 1))
         self.login(ADMIN_USERNAME)
         sql = "SELECT '$DATE()' as test"
         resp = {

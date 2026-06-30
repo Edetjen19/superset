@@ -174,7 +174,7 @@ def test_custom_process_template(
     mock_dt = mocker.patch(
         "tests.integration_tests.superset_test_custom_template_processors.datetime"
     )
-    mock_dt.utcnow = mock.Mock(return_value=datetime(1970, 1, 1))
+    mock_dt.now = mock.Mock(return_value=datetime(1970, 1, 1))
     database = mock.Mock()
     database.backend = "db_for_macros_testing"
     tp = get_template_processor(database=database)
